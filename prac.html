@@ -1,136 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <link rel="Stylesheet" herf="style.css"/>
-    <header><H1>Trial </H1></header>
-    <h1>Heading 1</h1>
-    <h2>Heading2</h2>
-    <h3>Heading3</h3>
-    <h4>Heading4</h4>
-    <h5>HEading5</h5>
-    <h6>Heading6</h6>
-    <p>This is a paragraph</p>
-    <pre> this is pre formatted text</pre>
-    <b>Bold</b>
-    <i>Italic</i>
-    <strong>Gives importance</strong>
-    <p>Hello 123<br> Hello this breaks line </p>
-    <hr>
-    <div>
-        <p> this is in a div</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A comprehensive HTML file demonstrating various tags." />
+    <meta name="author" content="Your Name" />
+    <title>HTML Tags Demonstration</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./image.png" alt="Image description" />
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </header>
+    
+    <nav>
+      <ul>
+        <li><a href="#section1">Go to Section 1</a></li>
+        <li><a href="#section2">Go to Section 2</a></li>
+      </ul>
+    </nav>
 
-    </div>
-    <ul>
-        <li>unodered list</li>
-    </ul>
-    <ol>
-        <li>ordered list</li>
-    </ol>
-    <dl>
-        <dt>html</dt>
-        <dd>Hyper text markup language</dd>
-    </dl>
     <main>
-    <a herf="https://drive.google.com/drive/folders/1YENUkQbJd4A4yV1hwGCD2mDMfpHtuxf7">html pdf</a>
-    <a href= "https://www.google.com" target="_blank">Open in New Tab</a>
-    <base href="https://www.example.com/">
-    <img src="image.jpg" alt="Description of Image" width="500" height="300">
-    <br>
+      <p>This is a paragraph.</p>
+      <pre>This is preformatted text.</pre>
+      <b>Bold</b>
+      <i>Italic</i>
+      <strong>Gives importance</strong>
+      <em>Emphasized text</em>
+      <mark>Highlighted text</mark>
+      <small>Small text</small>
+      <del>Deleted text</del>
+      <ins>Inserted text</ins>
+      <sub>Subscript text</sub>
+      <sup>Superscript text</sup>
+
+      <p>
+        Hello 123<br />
+        Hello this breaks line
+      </p>
+      <hr />
+      <div>
+        <p>This is in a div</p>
+      </div>
+      <section id="section1">
+        <ul>
+          <li>Unordered list item 1</li>
+          <li>Unordered list item 2</li>
+        </ul>
+        <ol>
+          <li>Ordered list item 1</li>
+          <li>Ordered list item 2</li>
+        </ol>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Hypertext Markup Language</dd>
+        </dl>
+      </section>
+
+      <aside>
+        <p>This is an aside element.</p>
+      </aside>
+
+      <article>
+        <h3>Article Heading</h3>
+        <p>This is an article.</p>
+      </article>
+
+      <details>
+        <summary>Click to expand</summary>
+        <p>Additional information.</p>
+      </details>
+
+      <figure>
+        <img src="./image.png" alt="Image description" />
+        <figcaption>Figure caption describing the image.</figcaption>
+      </figure>
+
+      <blockquote cite="https://example.com">
+        This is a blockquote.
+      </blockquote>
+
+      <video controls width="640" height="360">
+        <source src="video.mov" type="video/quicktime" />
+        Your browser does not support the video tag.
+      </video>
+
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name" /><br />
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="usa">United States</option>
+          <option value="ind">India</option>
+        </select><br />
+        <input type="checkbox" name="newsletter" id="newsletter" />
+        <label for="newsletter">Subscribe to newsletter</label><br />
+        <input type="radio" name="gender" value="male" /> Male<br />
+        <input type="radio" name="gender" value="female" /> Female<br />
+        <input type="password" placeholder="Enter your password" /><br />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <form action="submit.php">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label for="fname">First Name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last Name:</label><br />
+          <input type="text" id="lname" name="lname" /><br />
+          <input type="email" placeholder="Enter your email" /><br />
+          <input type="tel" placeholder="Enter your phone number" /><br />
+          <input type="url" placeholder="Enter your website URL" /><br />
+          <input type="color" /><br />
+          <input type="date" /><br />
+          <input type="range" /><br />
+        </fieldset>
+      </form>
+      
+      <progress value="50" max="100"></progress>
+      <meter value="0.5" min="0" max="1">50%</meter>
+
+      <table>
+        <caption>Sample Table</caption>
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+          </tr>
+          <tr>
+            <td>Data 3</td>
+            <td>Data 4</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Footer Information</td>
+          </tr>
+        </tfoot>
+      </table>
     </main>
-    <table>
-        <tr>
-            <td> 1 </td>
-            <td>2 </td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>4</td>
-        </tr>
-    
-    </table>
-    <table>
-        
-            <tr>
-            <th>Header 1</th> <th>Header 2</th>
-            </tr>
-            
-    </table>
-    
-<table>
-<tbody>
-<tr>
-    <td>Data 1</td>
-    <td>Data 2</td>
-</tr>
-<tr>
-    <td>Data 3</td>
-    <td>Data 4</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-    <tr>
-    </tr>
-    </table>
-    <td colspan="2"></td>
-</table>
+    <footer>
+      <address>
+        <p>Contact me at: <a href="mailto:xyz@example.com">xyz@example.com</a></p>
+      </address>
+      <p>&copy; 2024 Your Name</p>
+    </footer>
 
-<table>
-    <tr>
-        <td rowspan="2"> this spans 2 rows </td>
-        
-        <td>row1 , cell1</td>
-    </tr>
-    <tr>
-        <td>row2 cell2</td>
-    </tr>
-</table>
-
-<form>
-    <label for="Username">Username</label>
-    <input type="text" id= "Username" name=" username:" placeholder="ENTER YOUR NAME "/>
-    <br>
-    <label for="Country">Country</label>
-    <select id="Country" name="country"> 
-        <option value="usa"> United States</option>
-        <option value="ind"> India</option>
-    </select>
-</form>
-<form action="Submit.php">sends information to the required page </form>
-<legend>Contact</legend>
-<article>
-    <p>this i an article</p>
-</article>
-<section>
-    <h3>about me</h3>
-    <p>this is a section</p>
-</section>
-<address>
-    <p>contact me at xyz</p>
-</address>
-<footer><h1>this is a footer</h1></footer>
-<p class="info">This is my information</p>
-<label>checkbox</label>
-<input type="checkbox"  name="username"/>
-<input type="url">
-
-<form>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname">
-    <input type="text" value="Default Text">
-    <input type="color">
-    <h1 style="color: blue;">This heading is blue</h1>
-    <canvas id="myCanvas" width="600" height="400"></canvas>
-    <input type="radio">
-    <input type="tel">
-</form>
-</body>
+    <script>
+      console.log("This is a JavaScript console log example.");
+    </script>
+  </body>
 </html>
