@@ -1,0 +1,22 @@
+.title{
+    background-color: rgb(42, 75, 121);
+    color:white;
+    
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+#information{
+    
+}
+
+img{
+    position:relative;
+    top: 0%;
+    bottom: 0%;
+    left: 50%;
+    right: 50%;
+    
+    
+}
