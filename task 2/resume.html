@@ -4,27 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume - Stephen John</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/18c32a2ab0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/18c32a2ab0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- Header Section -->
     <section class="title">
       <header>
         <div id="information">
           <h1>Stephen John</h1>
-          <h3 class ="designation">Your Designation</h3>
+          <h3 class="designation">Your Designation</h3>
           <p class="content">
             My name is Stephen John. Lorem ipsum is simply dummy text of the
             printing and typesetting industry. Lorem ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown
-            printer.
+            industry's standard dummy text ever since the 1500s.
           </p>
           <div class="icons">
-            
-            <i class="fa-solid fa-tty"><span>Telephone</span></i>  
-            <i class="fa-solid fa-envelope"><span>Email</span></i>  
-            <i class="fa-solid fa-house"><span>Address , City , ST Zip Code</span></i > 
-        </div>
+            <i class="fa-solid fa-tty"><span> Telephone</span></i>
+            <i class="fa-solid fa-envelope"><span> Email</span></i>
+            <i class="fa-solid fa-house"><span> Address, City, ST Zip Code</span></i>
+          </div>
         </div>
         <div id="image">
           <img src="./img.png" alt="Profile picture of Stephen John" />
@@ -32,95 +40,78 @@
       </header>
     </section>
 
+    <!-- Work Experience -->
     <section>
       <h3 class="title" id="work">WORK EXPERIENCE</h3>
       <hr class="line" />
       <div id="content">
-      
-      <table>
-        <tr>
-          <td><b>Job Title 1</b></td>
-          <td><b>Company Name</b></td>
-        </tr>
-        <tr>
-          <td>Date from - to</td>
-          <td class="job">
+        <div class="left">
+          <b>Job Title 1</b>
+          <p>Date from - to</p>
+          <b>Job Title 2</b>
+          <p>Date from - to</p>
+        </div>
+        <div class="right">
+          <b>Company Name</b>
+          <p>
             Lorem ipsum is simply dummy text of the printing and typesetting
             industry. Lorem ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </td>
-        </tr>
-        <tr>
-          <td><b>Job Title 2</b></td>
-          <td><b>Company Name</b></td>
-        </tr>
-        <tr>
-          <td>Date from - to</td>
-          <td class="job">
+            ever since the 1500s.
+          </p>
+          <b>Company Name</b>
+          <p>
             Lorem ipsum is simply dummy text of the printing and typesetting
             industry. Lorem ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </td>
-        </tr>
-      </table>
-    </div>
+            ever since the 1500s.
+          </p>
+        </div>
+      </div>
     </section>
 
+    <!-- Education -->
     <section>
       <h3 class="title" id="education">EDUCATION</h3>
-      <hr class="line"/>
-      
+      <hr class="line" />
       <div id="edu">
-      <table>
-        <tr>
-          <td class="college"><b>COLLEGE OF USA</b></td>
-          <td><b>MASTER IN PROGRAMMING</b></td>
-        </tr>
-        <tr>
-          <td>2009 - 2012</td>
-          <td>
+        <div class="left-section">
+          <b>COLLEGE OF USA</b>
+          <p>2009 - 2012</p>
+          <b>COLLEGE OF ART</b>
+          <p>2005 - 2009</p>
+          <b>HIGH SCHOOL</b>
+          <p>2001 - 2005</p>
+        </div>
+        <div class="right-section">
+          <b>MASTER IN PROGRAMMING</b>
+          <p>
             Lorem ipsum is simply dummy text of the printing and typesetting
             industry. Lorem ipsum has been.
-          </td>
-        </tr>
-        <tr>
-          <td class="college"><b>COLLEGE OF ART</b></td>
-          <td ><b>SPECIALIZED IN SCULPTING</b></td>
-        </tr>
-        <tr>
-          <td>2005 - 2009</td>
-          <td>
+          </p>
+          <b>SPECIALIZED IN SCULPTING</b>
+          <p>
             Lorem ipsum is simply dummy text of the printing and typesetting
             industry. Lorem ipsum has been.
-          </td>
-        </tr>
-        <tr>
-          <td class="college"><b>HIGH SCHOOL</b></td>
-          <td><b>STATE SYLLABUS</b></td>
-        </tr>
-        <tr>
-          <td>2001 - 2005</td>
-          <td>
+          </p>
+          <b>STATE SYLLABUS</b>
+          <p>
             Lorem ipsum is simply dummy text of the printing and typesetting
             industry. Lorem ipsum has been.
-          </td>
-        </tr>
-      </table>
-    </div>
+          </p>
+        </div>
+      </div>
     </section>
 
+    <!-- Communication -->
     <section>
       <h3 class="title" id="com">COMMUNICATION</h3>
-      <hr class="line"/>
+      <hr class="line" />
       <div id="coms">
-      <p>
-        Lorem ipsum has been the industry's standard dummy text ever since the
-        1500s, when an unknown printer took a galley of type and scrambled it to
-        make a type specimen book.
-      </p>
-    </div>
+        <p>
+          Lorem ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </p>
+      </div>
     </section>
   </body>
 </html>

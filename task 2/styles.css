@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header{
+  display: flex;
+  
+  align-items: center;
+  gap: 80px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.title{
+  background-color: rgb(45,115,182);
+  color:white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 90px;
+}
+
+.designation{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+#information >*{
+  padding-right: 10px;
+  width: 60vw;
+}
+
+.icons {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 30px;
+}
+span{
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+
+#work{
+  width: 250px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#content{
+  display: flex;
+  margin-top: 15px;
+}
+.left{
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+#com{
+  width: 250px;
+  text-align: center;
+  
+}
+
+#education{
+  width: 250px;
+  text-align: center;
+  margin-top: 10px;
+}
+#edu{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.left-section{
+  margin-right: 15px;
+}
+
+#coms{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#image {
+  margin: 0; 
+  padding-top: 10px;
+}
+
+#image img {
+  max-width: 250px; 
+  height: auto; 
+  padding-left: 100px;
+}
+
+.line{
+  border:  #346d9f solid 1px;
+  margin-right: 150px;
+  margin-top: 0px;
+  
+}
+.content{
+  font-size: 25px;
+}
+p{
+  font-size: 20px;
+}
+b{
+  font-size: 20px;
+}
